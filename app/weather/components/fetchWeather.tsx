@@ -13,7 +13,7 @@ const fetchWeather = async ( city : any) => {
                 return;
             }
             const data = response.data;
-            console.log(data);
+            console.log(data.weather[0].main);
             return data;
         }
         catch (error) {
