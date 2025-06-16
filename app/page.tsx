@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 const projects = [
-  { slug: "weather-app", title: "Weather", description: "Get weather details of your city" },
+  { slug: "weather", title: "Weather", description: "Get weather details of your city" },
   { slug: "drum-kit", title: "Drum Kit", description: "Play drums with keyboard" },
   { slug: "todo-app", title: "Todo App", description: "Classic todo with add/delete" },
   // add more projects here
